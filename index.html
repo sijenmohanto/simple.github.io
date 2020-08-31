@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Simple website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+         <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/597dd717a9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container" id="home">
+            <header>
+                    <nav>
+                        <div class="logo">
+                            <img src="image/logo.png" alt="logo">
+                        </div>
+                        <div class="nav-menu">
+                            <div class="menu">
+                                <ul>
+                                    <li class="active"><a href="#home"><i class="fas fa-home"></i>home</a></li>
+                                    <li><a href="#home"><i class="fas fa-image"></i>gallery</a></li>
+                                    <li><a href="#port"><i class="fas fa-clone"></i>portfolio</a></li>
+                                    <li><a href="#testmo"><i class="fas fa-user"></i>about us</a></li>
+                                    <li><a href="#"><i class="fas fa-phone-alt"></i>contact us</a></li>
+                                </ul>
+                            </div>
+                            
+                         </div>
+                        <div class="side-nav">
+                                <a href="#" class="humberger" onclick="openNav()">&#9776;</a>
+                                <div class="side-menu" id="opensidenav">
+                                    <ul>
+                                        <li><a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a></li>
+                                        <li><a href="#home"><i class="fas fa-home"></i>home</a></li>
+                                        <li><a href="#home"><i class="fas fa-image"></i>gallery</a></li>
+                                        <li><a href="#port"><i class="fas fa-clone"></i>portfolio</a></li>
+                                        <li><a href="#testmo"><i class="fas fa-user"></i>about us</a></li>
+                                        <li><a href="#"><i class="fas fa-phone-alt"></i>contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </nav>
+                    <div class="hero-text-box">
+                        <h1>Hi there! We are the new kids on the block 
+                            and we build awesome websites and mobile apps.</h1>
+                             <a href="#" class="btn btn-hero">work with us!</a>
+                    </div>
+            </header>
+            <div class="portfolio js-portfolio" id="port">
+                <section>
+                    <div class="row">
+                        <h1>top destination</h1>
+                        <p class="text">Some of the top destinations for your next summer advantage !</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="parent-div">
+                        <div class="flex flex-1">
+                            <img src="image/dandelion-445228_1920.jpg">
+                            <h2>Amazing australia</h2>
+                            <p>Become inspired to travel to Australia.Discover fantastic thing to do & place to go.</p>
+                        </div>
+                        <div class="flex flex-2">
+                            <img src="image/dandelion-463928_1920.jpg">
+                            <h2>Amazing south america</h2>
+                            <p>Become inspired to travel to Australia.Discover fantastic thing to do & place to go.</p>
+                        </div>
+                        <div class="flex flex-3">
+                            <img src="image/dandelion-808255_1920.jpg">
+                            <h2>modern north america</h2>
+                            <p>Become inspired to travel to Australia.Discover fantastic thing to do & place to go.</p>
+                        </div>
+                        <div class="flex flex-4">
+                            <img src="image/sunrise-1014712_1920.jpg">
+                            <h2>classic europe</h2>
+                            <p>Become inspired to travel to Australia.Discover fantastic thing to do & place to go.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="testmonial-section" id='testmo'>
+                <h1>Before you leave</h1>
+                <div class="head-flex">
+                    <div class="hd heads hd-1">
+                        <h2>Visa and Document</h2>
+                        <p class="pra">There are some things you should take care of before going to your next adventure.
+                        We'll help you to requard visas and document nedded.
+                        </p>
+                    </div>
+                    <div class="hd heads hd-2">
+                        <h2>Accommudation</h2>
+                        <p class="pra">There are some things you should take care of before going to your next adventure.
+                        We'll help you to requard visas and document nedded.
+                        </p>
+                    </div>
+                    <div class="hd heads hd-3">
+                        <h2>transporation</h2>
+                        <p class="pra">There are some things you should take care of before going to your next adventure.
+                        We'll help you to requard visas and document nedded.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fotter">
+                <p>Copyright &copy;Sijen Mohanto</p>
+            </div>
+            
+        </div>
+        <script>
+            function openNav(){
+                document.getElementById('opensidenav').style.width='20rem';
+            }
+            function closeNav(){
+                document.getElementById('opensidenav').style.width='0rem';
+            }
+        </script>
+    </body>
+    
+</html>

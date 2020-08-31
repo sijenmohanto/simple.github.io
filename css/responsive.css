@@ -1,0 +1,318 @@
+@media(min-width:974px) and (max-width:1235px){
+    html{
+        font-size: 50%;
+    }
+    .portfolio{
+        height: 70vh;
+    }
+}
+@media (min-width:769px) and (max-width:973px){
+    html{
+        font-size: 30%;
+    }
+    .logo{
+       width: 12rem;
+       height: auto;
+       margin: .8rem;
+       padding: .8rem;
+    }
+    header{
+        height: 50vh;
+    }
+    .hero-text-box{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hero-text-box h1{
+        font-size: 3.4rem;
+    }
+    .portfolio{
+        height: 55vh;
+    }
+    .row h1{
+        font-size: 3.4rem;
+    }
+    .text{
+        font-size: 2.6rem;
+    }
+    .parent-div .flex h2{
+        font-size: 2.8rem;
+    }
+    .parent-div .flex p{
+        font-size: 1.6rem;
+    }
+    .testmonial-section{
+        height: 30vh;
+    }
+    .testmonial-section h1{
+        font-size: 3.4rem;
+    }
+    .testmonial-section h2{
+        font-size: 2.4rem;
+    }
+    .testmonial-section p{
+        font-size: 1.8rem;
+    }
+    .fotter{
+        height: 8rem;
+    }
+    .fotter p{
+        font-size: 1.8rem;
+    }
+}
+ @media (min-width:476px) and (max-width:768px){
+        html{
+            font-size: 30%;
+        }
+        .logo{
+            margin: .7rem;
+            padding: .7rem;
+         }
+         nav{
+             padding: 0 3rem;
+         }
+         .menu{
+             display: none;
+         }
+         .side-nav{
+             display: block;
+             text-align: center;
+         }
+         .side-nav a{
+             font-size: 3.4rem;
+             color: #fff;
+             margin: 1.5rem;
+             padding: 1.5rem;
+             text-decoration: none;
+             list-style-type: none;
+             float: right;
+             font-weight: bold;
+             
+         }
+         .side-nav a:hover{
+             background: #4f4ca8b3;
+             
+         }
+         .side-menu{
+             background: navy;
+             float: left;
+             width: 40rem;
+             margin-top: 0;
+             margin-left: 0;
+             margin-right: 120rem;
+             list-style-type: none;
+             overflow-x: hidden;
+             
+         }
+         .side-menu ul li{
+             width: 100%;
+             z-index: 1;
+         }
+         .side-menu ul li a{
+             display: block;
+             width: 80%;
+             border: 1px solid #fff;
+             list-style-type: none;
+             text-transform: uppercase;
+         }
+         .side-menu ul li a:hover{
+             color:  #cd31d2e3;
+         }
+         .side-menu .fas{
+             margin-right: .8rem;
+         }
+         header{
+            height: 40vh;
+        }
+        .hero-text-box{
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .hero-text-box h1{
+            font-size: 3.4rem;
+        }
+        .btn{
+            margin-right: 60%;
+            margin-left: 0;
+            font-weight: bold;
+            letter-spacing: .2rem;
+        }
+        .portfolio{
+            height: 55vh;
+        }
+        .row h1{
+            font-size: 3.4rem;
+        }
+        .text{
+            font-size: 2.6rem;
+        }
+        .parent-div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+        .testmonial-section{
+            height: 25vh;
+        }
+        .testmonial-section h1{
+            font-size: 3.4rem;
+        }
+        .flex{
+            width: 40%;
+        }
+        .flex h2{
+            font-size: 2.4rem;
+        }
+        .parent-div .flex img,h2,p{
+            width: 100%;
+        }
+        .head-flex{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .head-flex .heads{
+            width: 50%;
+        }
+        .heads h2{
+            font-size: 2.4rem;
+            letter-spacing: .3rem;
+        }
+        .pra{
+            font-size: 1.8rem;
+        }
+        .fotter{
+            height: 8rem;
+        }
+        .fotter p{
+            font-size: 2.2rem;
+        }
+    }
+    @media (min-width:300px) and (max-width:475px){
+        header{
+            z-index: 0;
+            height: 70vh;
+        }
+        header h1{
+            width: 35rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .btn{
+            position: absolute;
+            top: 5rem;
+            left: -7.5rem;
+            font-size: 1.6rem;
+            margin: 1rem;
+            padding: 1rem 4rem;
+        }
+        .menu{
+            display: none;
+        }
+        nav{
+            height: 8rem;
+        }
+        .logo{
+            margin: 1.2rem;
+            padding: 1.2rem;
+        }
+        .side-nav{
+            display: block;
+        }
+        .side-nav{
+             display: block;
+             text-align: center;
+         }
+         .side-nav a{
+             font-size: 1.6rem;
+             color: #fff;
+             margin: 1rem;
+             padding: 1rem;
+             text-decoration: none;
+             list-style-type: none;
+             float: right;
+             font-weight: bold;
+             
+         }
+         .side-nav a:hover{
+             background: #4f4ca8b3;
+             border-radius: .5rem;
+         }
+         .side-menu{
+             background: black;
+             float: left;
+             margin-top: 0;
+             margin-left: 0;
+             margin-right: 120rem;
+             list-style-type: none;
+             overflow: hidden;
+             transform: 2s;
+             z-index: 1;
+         }
+         .side-menu ul li{
+             width: 100%;
+             z-index: 1;
+         }
+         .side-menu ul li a{
+             display: block;
+             width: 75%;
+             border: 1px solid #fff;
+             list-style-type: none;
+             text-transform: uppercase;
+         }
+         .side-menu ul li a:hover{
+             color:  #cd31d2e3;
+         }
+         .side-menu .fas{
+             margin-right: .8rem;
+         }
+         .portfolio{
+            height: 55vh;
+        }
+        .row h1{
+            font-size: 2.4rem;
+        }
+        .text{
+            width: 35rem;
+            font-size: 2.4rem;
+        }
+        .parent-div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+        .flex{
+            margin: 2rem 5rem;
+        }
+        #port{
+            height: auto;
+        }
+        #port:last-child{
+            margin-bottom: 2rem;
+        }  
+        #testmo{
+            height: auto;
+        }
+        .head-flex{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+        .hd{
+            width: 100%;
+        }
+        .hd h2 ,p{
+            width: 100%;
+            margin: 0;
+            padding: 1rem 2rem;
+        }
+    }
+
